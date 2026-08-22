@@ -4,6 +4,7 @@
 # int() -> convert from one data type to integer data type.
 # float() -> convert from one data type to float data type.
 
+
 print(2 + 3)
 print("hi there")
 print('Welcome ' + 'back')
@@ -20,3 +21,6 @@ print("Hi " + "there " + "welcome " + "to " + "my " + "class.")
 # 'hi' + 'there' - -> concatenation
 
 print("My age is " + str(21))
+
+
+# vscode --> python interpretor --> output
