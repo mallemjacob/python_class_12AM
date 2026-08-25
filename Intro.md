@@ -30,6 +30,7 @@ numbers - 1,2, 99, 4.5, 121.6, 3.14
 strings - 'hi', 'good morning', "sun", "moon"
 integers - 1,3,4,5,6,7...
 floats - 3.14, 2.6, 0.7, 1.2
+booleans - True, False
 
 ### Strings
 
