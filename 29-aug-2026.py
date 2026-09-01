@@ -31,15 +31,15 @@
 #         print('wrong username')
 
 
-found = False
-print('Enter your username:')
-username = input()  # 'cat'
+# found = False
+# print('Enter your username:')
+# username = input()  # 'cat'
 
-while username != 'mouse':  # 'mouse' != 'mouse'
-    print('Wrong username')
-    if not found:
-        print('Enter your username:')
-        username = input()  # 'mouse'
+# while username != 'mouse':  # 'mouse' != 'mouse'
+#     print('Wrong username')
+#     if not found:
+#         print('Enter your username:')
+#         username = input()  # 'mouse'
 
 
 # Homework
@@ -57,3 +57,10 @@ elif student_marks >= 75 and student_marks <= 100:
     print('Grade A')
 else:
     print('Invalid marks')
+
+
+# if condition:
+#     code block
+
+# while condition:
+#     code block
