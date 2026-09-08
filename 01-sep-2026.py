@@ -48,36 +48,37 @@
 # while condition:
 #   code block
 
+
 # for i in range(number):
-#   code block
+#     code block
 
 
 # for i in range(1, 11):  # 1,2,3,4,5,6,7,8,9,10
 #     print(i)
 
 
-# for i in range(15, 20):  # 1,2,3,4,5,6,7,8,9,10
+# for i in range(15, 20):  # 15,16,17,18,19
 #     print(i)
 
 
-for i in range(3):  # 0,1,2
-    print(i)
+# for i in range(3):  # 0,1,2
+#     print(i)
 
 
-while True:
-    print('Enter your username:')
-    username = input()  # 'mouse'
-    if username == 'mouse':
-        print('Welcome Mouse')
-        for i in range(1, 4):  # 1, 2, 3
-            print('Enter your password')
-            password = input()  # 'black'
-            if password == 'swordfish':
-                print('Welcome to your account')
-                break
-            else:
-                print('Wrong password')
-                print('You have ' + str(3 - i) + ' attempts left')
-        break
-    else:
-        print('Wrong username try again.')
+# while True:
+#     print('Enter your username:')
+#     username = input()  # 'mouse'
+#     if username == 'mouse':
+#         print('Welcome Mouse')
+#         for i in range(1, 4):  # 1, 2, 3
+#             print('Enter your password')
+#             password = input()  # 'black'
+#             if password == 'swordfish':
+#                 print('Welcome to your account')
+#                 break
+#             else:
+#                 print('Wrong password')
+#                 print('You have ' + str(3 - i) + ' attempts left')
+#         break
+#     else:
+#         print('Wrong username try again.')
