@@ -31,68 +31,73 @@
 import sys
 import random
 
-print('ROCK, PAPER, SCISSORS')
 
-wins = 0
-losses = 0
-ties = 0
+def rpsgame():
+    print('ROCK, PAPER, SCISSORS')
 
-while True:
-    print(str(wins) + " Wins," + " " + str(losses) +
-          " Losses," + " " + str(ties) + " Ties")
-
-    # USER MOVE
+    wins = 0
+    losses = 0
+    ties = 0
 
     while True:
-        print('Enter your move: (r)ock (p)aper (s)cissors or (q)uit')
+        print(str(wins) + " Wins," + " " + str(losses) +
+              " Losses," + " " + str(ties) + " Ties")
 
-        userMove = input()  # r
+        # USER MOVE
 
-        if userMove == 'r':
-            print('ROCK versus...')
-            break
-        elif userMove == 'p':
-            print('PAPER versus...')
-            break
-        elif userMove == 's':
-            print('SCISSORS versus...')
-            break
-        elif userMove == 'q':
-            sys.exit()
-        else:
-            print('Invalid option! You must enter r,p,s or q')
+        while True:
+            print('Enter your move: (r)ock (p)aper (s)cissors or (q)uit')
 
-    # COMPUTER MOVE
+            userMove = input()  # r
 
-    computer_move = random.choice(['r', 'p', 's'])  # s
+            if userMove == 'r':
+                print('ROCK versus...')
+                break
+            elif userMove == 'p':
+                print('PAPER versus...')
+                break
+            elif userMove == 's':
+                print('SCISSORS versus...')
+                break
+            elif userMove == 'q':
+                sys.exit()
+            else:
+                print('Invalid option! You must enter r,p,s or q')
 
-    if computer_move == 'r':
-        print('ROCK')
-    elif computer_move == 'p':
-        print('PAPER')
-    elif computer_move == 's':
-        print('SCISSORS')
+        # COMPUTER MOVE
 
-    # GAME LOGIC
+        computer_move = random.choice(['r', 'p', 's'])  # s
 
-    if userMove == 'r' and computer_move == 'p':
-        print('You lost')
-        losses = losses + 1
-    elif userMove == 'r' and computer_move == 's':
-        print('You win')
-        wins = wins + 1
-    elif userMove == 'p' and computer_move == 's':
-        print('You lost')
-        losses = losses + 1
-    elif userMove == 'p' and computer_move == 'r':
-        print('You win')
-        wins = wins + 1
-    elif userMove == 's' and computer_move == 'r':
-        print('You lost')
-        losses = losses + 1
-    elif userMove == 's' and computer_move == 'p':
-        print('You win')
-        wins = wins + 1
-    elif userMove == computer_move:
-        print('It is a tie!')
-        ties = ties + 1
+        if computer_move == 'r':
+            print('ROCK')
+        elif computer_move == 'p':
+            print('PAPER')
+        elif computer_move == 's':
+            print('SCISSORS')
+
+        # GAME LOGIC
+
+        if userMove == 'r' and computer_move == 'p':
+            print('You lost')
+            losses = losses + 1
+        elif userMove == 'r' and computer_move == 's':
+            print('You win')
+            wins = wins + 1
+        elif userMove == 'p' and computer_move == 's':
+            print('You lost')
+            losses = losses + 1
+        elif userMove == 'p' and computer_move == 'r':
+            print('You win')
+            wins = wins + 1
+        elif userMove == 's' and computer_move == 'r':
+            print('You lost')
+            losses = losses + 1
+        elif userMove == 's' and computer_move == 'p':
+            print('You win')
+            wins = wins + 1
+        elif userMove == computer_move:
+            print('It is a tie!')
+            ties = ties + 1
+
+
+rpsgame()
