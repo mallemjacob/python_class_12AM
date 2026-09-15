@@ -9,6 +9,7 @@
 # print('hi ' + name)
 
 # User defined Functions
+# -----------------------
 
 # code reuse
 # scoped: code is isolated
@@ -29,7 +30,7 @@
 #     print('Have a nice ' + day)
 
 
-# # function calling
+# function calling
 # greet('morning')  # 'morning' --- argument
 # greet('afternoon')
 # greet('evening')
@@ -74,7 +75,7 @@
 # calculator(10, 5)  # fucntion calling
 # print('Finished Round 2')
 
-
+# -----------------------------------------
 # # Home 1
 # def greet():
 #     # Local scope
@@ -85,7 +86,7 @@
 # # Earth
 # greet()
 
-# # Global scope
+# Global scope
 # print("Line 84: " + name)
 
 # # Home 2
@@ -106,13 +107,74 @@
 
 # return statement
 
-def add(a, b):  # a = 10, b = 20
-    total = a + b
-    return total
+# def add(a, b):  # a = 10, b = 20
+#     total = a + b  # 10 + 20
+#     return total
 
 
-returned_solution_1 = add(1, 2)
-returned_solution_2 = add(10, 20)
+# returned_solution_1 = add(1, 2)
+# returned_solution_2 = add(10, 20)
 
-print(returned_solution_1)
-print(returned_solution_2)
+# print(returned_solution_1)
+# print(returned_solution_2)
+
+
+# Positional Variable Arguments: *args
+# ------------------------------------
+# function definition
+# def calculator(*nums):  # nums = (1,2)
+#     total = 0
+#     for i in nums:
+#         total = total + i
+#     return total
+
+
+# # function calling
+# print(calculator(1, 2))
+# print(calculator(12, 24, 10))
+# print(calculator(12, 24, 10, 5))
+# print(calculator(12, 24, 10, 27, 7, 8, 93, 2, 5))
+# print(calculator(12, 24, 10, 1, 4))
+
+
+# def animals(*animals):  # animals = ('cat', 'dog', 'snake')
+#     animal_str = ''  # 'catdogsnake'
+#     for animal in animals:
+#         animal_str = animal_str + animal + ' '  # 'catdog' + 'snake'
+
+#     return animal_str
+
+
+# print(animals('cat', 'dog', 'snake'))
+# print(animals('cat', 'dog', 'snake', 'elepahnt'))
+
+# animals = ('cat', 'dog', 'snake')
+
+# for i in animals:
+#     print(i)
+
+
+# name = 'mouse'
+
+# for letter in name:
+#     print(letter)
+
+
+# Postional arguments
+
+
+# def greet(name, age):  # name = 20, age = 'mouse'
+#     return 'hi ' + name + ' You are ' + str(age) + ' years old.'
+
+
+# print(greet(age=20, name='mouse'))
+
+
+# # input(20, mouse) - -- -> function - - -> returns output('hi there 20')
+
+
+def a():
+    return 'hi'
+
+
+print(a())
