@@ -167,14 +167,26 @@
 #     return 'hi ' + name + ' You are ' + str(age) + ' years old.'
 
 
+# print(greet('mouse', 20))
+# print(greet(20, 'mouse'))
 # print(greet(age=20, name='mouse'))
 
 
 # # input(20, mouse) - -- -> function - - -> returns output('hi there 20')
 
 
-def a():
-    return 'hi'
+# def a():
+#     return 'hi'
 
 
-print(a())
+# print(a())
+
+
+# default arguments
+
+# def game(name='Stranger', score=0):
+#     return "Hi " + name + " Your score is: " + str(score)
+
+
+# print(game())  # Hi Stranger
+# print(game('Mouse', 10))  # Hi Mouse
