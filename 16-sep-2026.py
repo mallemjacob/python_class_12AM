@@ -53,8 +53,8 @@ while True:
 # name = 'cat'
 
 
-i = 0
+# i = 0
 
-while i < 10:  # 3 < 10
-    print(i)  # 2
-    i = i + 1  # i = 3
+# while i < 10:  # 3 < 10
+#     print(i)  # 2
+#     i = i + 1  # i = 3
