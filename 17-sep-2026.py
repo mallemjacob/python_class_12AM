@@ -1,4 +1,5 @@
-import time
+# import time
+# import sys
 
 # Exception Handling or Error Handling
 
@@ -117,22 +118,26 @@ import time
 
 # Zigzag pattern
 
-indent = 0
-indentationIncrease = True
+# indent = 0
+# indentationIncrease = True
 
-while True:
-    print(' ' * indent, end='')
-    print('********')
-    time.sleep(0.1)
 
-    if indentationIncrease:
-        indent = indent + 1
-        if indent == 10:
-            indentationIncrease = False
-    else:
-        indent = indent - 1
-        if indent == 0:
-            indentationIncrease = True
+# try:
+#     while True:
+#         print(' ' * indent, end='')
+#         print('********')
+#         time.sleep(0.1)
+
+#         if indentationIncrease:
+#             indent = indent + 1
+#             if indent == 10:
+#                 indentationIncrease = False
+#         else:
+#             indent = indent - 1
+#             if indent == 0:
+#                 indentationIncrease = True
+# except KeyboardInterrupt:
+#     sys.exit()
 
 
 # indent = 0
@@ -152,14 +157,22 @@ while True:
 #         if indent == 0:
 #             indentationIncrease = True
 
-
 # Home work
 # Add error handling to the zig-zap pattern program
 # Import sys module
 # sys.exit()
 
-
 # try:
 #   zigzag code
 # except KeyboardInterrupt:
 #   error ahndlign code
+
+
+# kwargs
+# def greet(**kwargs):
+#     print(kwargs['name'])
+#     print(kwargs['age'])
+#     print(kwargs['language'])
+
+
+# greet(name='mouse', age=23, language='French')
