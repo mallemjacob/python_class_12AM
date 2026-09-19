@@ -87,3 +87,43 @@ alive = True
 # print(fruits)
 
 ##########################################################
+
+
+# reverse indexexs
+
+# reverse =     -5        -4         -3        -2         -1
+# fruits = ['apples', 'babanas', 'oranges', 'pears', 'strawberries']
+# indexes =   0           1          2         3          4
+
+
+# print(fruits[-1])
+# print(fruits[-2])
+# print(fruits[-3])
+# print(fruits[-4])
+# print(fruits[-5])
+
+
+# Slicing
+
+# list[starting:ending:step]
+fruits = ['apples', 'babanas', 'oranges', 'pears', 'strawberries']
+
+print(fruits[0:2])
+print(fruits[0:len(fruits)])
+
+print(fruits[::])
+
+print(fruits[1:])
+
+print(fruits[:4])
+
+
+print(fruits[::-1])
+
+
+print(fruits[::2])
+print(fruits[::3])
+
+
+# List replication
+['a', 'b', 'c'] * 3
