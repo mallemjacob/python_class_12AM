@@ -96,6 +96,9 @@ alive = True
 # indexes =   0           1          2         3          4
 
 
+# -4 -3 -2 -1 0 1 2 3 4
+
+
 # print(fruits[-1])
 # print(fruits[-2])
 # print(fruits[-3])
