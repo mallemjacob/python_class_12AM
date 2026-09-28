@@ -156,7 +156,7 @@ False
 # modules -- external pirce of code
 
 
-# 1.build in modules
+# 1.built in modules
 # 2.user defined modules
 # 3.third party modules
 
