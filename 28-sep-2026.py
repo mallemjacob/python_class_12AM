@@ -5,7 +5,7 @@
 # IMAP, POP3 - emails
 # SSH - remote control
 # website ------------------------------ website
-# HTTP
+# HTTP - Hypertext transfer protocol
 
 # How computers communicate via web?
 
@@ -32,7 +32,7 @@
 # JSON - Javascript Object notation
 
 
-# {'name': 'mouse'}
+# {"name": "mouse"}
 
 
 # REST API = Application programming interface
@@ -75,8 +75,10 @@
 
 
 # 1. create venv
+# 2. activate the venv
 # 2. download requests module from pypi.org
 # 3. import requests module
+# 4. deactivate
 
 
 # github company ---> github.com ---> website (for humans)
@@ -85,3 +87,23 @@
 
 # youtube ---> youtube.com ---> webiste(for humans)
 # -----------> googleapis.com/youtube/ ---> JSON
+
+
+# Create venv for windows
+Right click on the folder and click "open in integrated terminal"
+
+1. Create the Virtual Environment
+python - m venv .venv
+
+2. Activate the Virtual Environment
+	.\.venv\Scripts\Activate.ps1
+
+
+3. Deactivate the Environment
+deactivate
+
+key
+
+human ---> browser (HTTP GET) --> https://unsplash.com/ --> photos
+
+python (requests) --> HTTP GET (key) --> https://api.unsplash.com ---> JSON
