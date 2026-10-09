@@ -85,3 +85,13 @@ my_leaf.battery.describe_battery()
       #      |                |
   # ElectriCar (Battery)  SportCar
   
+
+
+
+# varibale --> arrtibute
+# name = "mouse"
+
+
+# function --> method
+# def greet():
+#   return 'hi'  + name
