@@ -61,3 +61,6 @@ file_reader.py --> ./data/ --> python_wiki.txt
 # 01-02-2022.png
 
 # 02-02-2022.png
+
+git
+linux
