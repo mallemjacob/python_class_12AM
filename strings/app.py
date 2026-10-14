@@ -111,43 +111,137 @@
 
 # lower(), islower()
 
-print('MOUSE'.lower())
+# print('MOUSE'.lower())
 
-print('mouse'.islower())
+# print('mouse'.islower())
 
-print('MOUSE'.islower())
-
-
-
-print('enter username:')
-uname = input() # 'MOUSE'
-
-if uname.lower() == 'mouse':
-  print('Enter your password. Must contain letters or number.')
-  pswd = input() 
-  if pswd.isalnum():
-    print('Welcome to the account')
-  else:
-    print('Wrong password')
-else:
-  print('username doesnt exist')
+# print('MOUSE'.islower())
 
 
-# isalpha()
 
-'hi there'.isalpha()
+# print('Enter your age: ')
+# age = input() # '19'
 
-'hithere'.isalpha()
+# if age.isdecimal():
+#   print('enter username:')
+#   uname = input() # 'MOUSE'
+  
+#   if uname.lower() == 'mouse':
+#     print('Enter your password. Must contain letters or numbers.')
+#     pswd = input() 
+#     if pswd.isalnum():
+#       print('Welcome to the account')
+#     else:
+#       print('Wrong password')
+#   else:
+#     print('username doesnt exist')
+# else:
+#   print('Invalid age')
 
-# isalnum()
+# # isalpha() - A-Z
+
+# 'hi there'.isalpha()
+
+# 'hithere'.isalpha()
+
+# # isalnum()
 
 
-' '.isalnum()
-# False
-' hi there '.isalnum()
-# False
-'hi'.isalnum()
-# True
-'123'.isalnum()
-# True
-'password123'.isalnum()
+# ' '.isalnum()
+# # False
+# ' hi there '.isalnum()
+# # False
+# 'hi'.isalnum()
+# # True
+# '123'.isalnum()
+# # True
+# 'password123'.isalnum()
+
+
+# # isdecimal()
+# 'hi'.isdecimal() # False
+# '123'.isdecimal() # True
+
+
+# # isspace()
+# ' '.isspace() # True
+# ' hihi'.isspace() # False
+
+
+# # istitle()
+
+# 'hi'.istitle() # False
+# 'Hi'.istitle() # True
+# 'HI'.istitle() # False
+
+
+# # startswith(), 
+# 'Hello, world!'.startswith('H') # True
+# 'Hello, world!'.startswith('T') # False
+# 'Hello, world!'.startswith('He') # True
+
+
+# endswith()
+
+
+files = ['app.py','python.pdf','index.py','backend.py','index.html','script.js','db.pdf','fastapi.py']
+
+python_files = []
+
+for i in files:
+  if i.endswith('.py'):
+    python_files.append(i)
+    
+print(python_files)
+
+
+# mp3, mp4, png, jpeg, 
+
+
+# when i login in
+# bash - CORN job
+# run app.py
+
+
+
+# join()
+','.join(['cats','rats','bats'])
+# 'cats,rats,bats'
+
+' | '.join(['cats','rats','bats'])
+# 'cats | rats | bats'
+
+# split()
+'My name is mouse'.split()
+# ['My', 'name', 'is', 'mouse']
+
+'My*name*is mouse'.split()
+# ['My*name*is', 'mouse']
+
+'My*name*is mouse'.split('*')
+# ['My', 'name', 'is mouse']
+
+
+
+spam = '''Dear Alice,
+How have you been? I am fine.
+There is a container in the fridge
+that is labeled "Milk Experiment."
+
+Please do not drink it.
+Sincerely,
+Bob'''
+
+print(spam.split('\n'))
+
+# rjust()
+'Hello'.rjust(10)
+# '     Hello'
+
+# ljust()
+'Hello'.ljust(10, '*')
+# 'Hello     '
+
+# center()
+'Hello'.center(10)
+'  Hello   '
