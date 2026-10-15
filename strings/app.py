@@ -245,3 +245,19 @@ print(spam.split('\n'))
 # center()
 'Hello'.center(10)
 '  Hello   '
+
+
+
+# 15-Oct-2026
+
+# strip()
+
+' hello    '.strip() # 'hello'
+
+# rstrip()
+' hello    '.rstrip() # ' hello'
+
+# lstrip()
+' hello    '.lstrip() # 'hello    '
+
+
