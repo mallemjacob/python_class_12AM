@@ -59,13 +59,24 @@
 
 # Writing to a File
 
-from pathlib import Path
+# from pathlib import Path
 
-path = Path('./python_data', 'new_programming.txt')
+# path = Path('./python_datas', 'new_programming.txt')
 
-path.write_text('I am learning python programming language!')
+# contents = 'I am learning python programming language!\n'
+# contents = contents + "I want to learn other libraries like fastAPI.\n"
+# contents += "I work with huge data!"
 
-contents = path.read_text()
 
-print('The contents are stored successfully!')
-print(contents)
+# try:
+#   path.write_text(contents)
+# except FileNotFoundError:
+#   print("Invalid path!")
+
+# contents = path.read_text()
+
+# print('The contents are stored successfully!')
+# print(contents)
+
+
+# Exception handling

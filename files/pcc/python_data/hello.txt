@@ -1,0 +1,9 @@
+
+Python is widely taught as an introductory programming language.[41]
+
+History
+Main article: History of Python
+
+The name Python derives from the British comedy series Monty Python's Flying Circus.[47] (See § Naming.)
+
+Python uses dynamic typing and a combination of reference counting and a cycle-detecting garbage collector for memory management.[64] It uses dynamic name resolution (late binding), which binds method and variable names during program execution.
